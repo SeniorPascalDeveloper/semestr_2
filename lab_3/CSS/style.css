@@ -1,0 +1,42 @@
+table#build {
+    border-collapse: collapse;
+}
+
+table#build>tr {
+    background-color: #e486d89b;
+}
+
+table#build>tbody>tr>td {
+    background-color: #f1acd3;
+}
+
+table#build td,
+table#build th {
+    border: 2px solid #f5147de8;
+}
+
+svg {
+    width: 800px;
+    height: 400px;
+}
+svg text {
+    font: 8px Verdana;
+}
+svg path, line {
+    fill: none;
+    stroke: #333333;
+    width: 1px;
+}
+
+
+.error {
+    border: 2px solid red;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.errorText {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
