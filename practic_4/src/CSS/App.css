@@ -1,0 +1,47 @@
+/* классы видимости для пагинации */
+.show {
+    display: table-row;
+}
+.hide {
+    display: none;
+}
+
+/* активный номер страницы */
+.active {
+    color: red;
+    font-weight: bold;
+}
+
+/* отступы и курсор для номеров страниц */
+span {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+/* базовое оформление таблицы (если ещё не было) */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    text-align: left;
+}
+th {
+    background-color: #f0f0f0;
+}
+
+svg {
+    width: 800px;
+    height: 400px;
+}
+svg path, line {
+    fill: none;
+    stroke: black;
+    width: 1px;
+}
+svg text {
+    font: 8px Verdana;
+}
