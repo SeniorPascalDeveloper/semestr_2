@@ -1,0 +1,55 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+svg {
+  display: block;
+  margin: 20px auto;
+}
+
+svg path,
+line {
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+svg text {
+  font: 10px Verdana;
+}
+
+button {
+  margin-top: 10px;
+  padding: 6px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+form {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+form p {
+  margin: 8px 0;
+}
+
+form div {
+  margin-left: 20px;
+}
+
+select {
+  margin-left: 10px;
+}
